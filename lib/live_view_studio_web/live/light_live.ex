@@ -1,4 +1,4 @@
-defmodule LightLive do
+defmodule LiveViewStudioWeb.LightLive do
   
   use Phoenix.LiveView
 
