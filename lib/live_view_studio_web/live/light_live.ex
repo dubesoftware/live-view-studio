@@ -6,7 +6,18 @@ defmodule LiveViewStudioWeb.LightLive do
     {:ok, socket}
   end
 
-  # render
+  def render(assigns) do
+    ~H"""
+    <h1>Front Porch Light</h1>
+    <div id="light">
+      <div class="meter">
+        <span>
+          <%= @brightness %>%
+        </span>
+      </div>
+    </div>
+    """
+  end
 
   # handle_event
 end
