@@ -25,8 +25,5 @@ defmodule LiveViewStudioWeb.LightLive do
     """
   end
 
-  def handle_event("on", _, socket) do
-    socket = assign(socket, brightness: 100)
-    {:noreply, socket}
-  end
+  # handle_event
 end
