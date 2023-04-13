@@ -15,10 +15,10 @@ defmodule LiveViewStudioWeb.LightLive do
           <%= @brightness %>%
         </span>
       </div>
-      <button>
+      <button phx-click="off">
         <img src="/images/light-off.svg">
       </button>
-      <button>
+      <button phx-click="on">
         <img src="/images/light-off.svg">
       </button>
     </div>
