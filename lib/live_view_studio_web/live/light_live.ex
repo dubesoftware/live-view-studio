@@ -15,6 +15,12 @@ defmodule LiveViewStudioWeb.LightLive do
           <%= @brightness %>%
         </span>
       </div>
+      <button>
+        <img src="/images/light-off.svg">
+      </button>
+      <button>
+        <img src="/images/light-off.svg">
+      </button>
     </div>
     """
   end
