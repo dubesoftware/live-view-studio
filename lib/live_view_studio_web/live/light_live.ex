@@ -24,6 +24,9 @@ defmodule LiveViewStudioWeb.LightLive do
       <button phx-click="up">
         <img src="/images/up.svg">
       </button>
+      <button phx-click="rando">
+        <img src="/images/fire.svg">
+      </button>
       <button phx-click="on">
         <img src="/images/light-off.svg">
       </button>
