@@ -16,19 +16,19 @@ defmodule LiveViewStudioWeb.LightLive do
         </span>
       </div>
       <button phx-click="off">
-        <img src="/images/light-off.svg">
+        <img src="/images/light-off.svg" />
       </button>
       <button phx-click="down">
-        <img src="/images/down.svg">
+        <img src="/images/down.svg" />
       </button>
       <button phx-click="up">
-        <img src="/images/up.svg">
+        <img src="/images/up.svg" />
       </button>
       <button phx-click="rando">
-        <img src="/images/fire.svg">
+        <img src="/images/fire.svg" />
       </button>
       <button phx-click="on">
-        <img src="/images/light-off.svg">
+        <img src="/images/light-off.svg" />
       </button>
     </div>
     """
